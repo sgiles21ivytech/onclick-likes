@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Likes</title>
+    <link rel="stylesheet" href="style-user-likes.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1 class="nav-title">Network</h1>
+    </nav>
+    <h1 class="feed">Your Feed</h1>
+    <div class="profile-page">
+        <div class="west-col">
+            <div class="profile-info">
+                <img src="user-circle.png" alt="profile-picture">
+                <p class="style-words">Add an avatar</p>
+                <h3>James Doe</h3>
+            </div>
+        </div>
+        <div class="east-col">
+            <div class="user-post">
+                <div class="name-and-likes">
+                    <h3 id="name">Neil M</h3>
+                    <p id="likes">1 Like(s)</p>
+                    <button onclick="like1()" id="like-button">Like</button>   
+                </div>
+                <div class="status-posted">
+                    <p>I just set up this new discord bot, let me know what you all think <span class="style-words">link</span></p>
+                </div>
+            </div>
+            <div class="user-post">
+                <div class="name-and-likes">
+                    <h3 id="name">Nichole K</h3>
+                    <p id="likes-2">1 Like(s)</p>
+                    <button onclick="like2()" id="like-button">Like</button>   
+                </div>
+                <div class="status-posted">
+                    <p>Just finished my <span class="style-words">next comic</span> check it out.</p>
+                </div>
+            </div>
+            <div class="user-post">
+                <div class="name-and-likes">
+                    <h3 id="name">Jim R</h3>
+                    <p id="likes-3">1 Like(s)</p>
+                    <button onclick="like3()" id="like-button">Like</button>   
+                </div>
+                <div class="status-posted">
+                    <p>I can't stop listening to the <span class="style-words">new album</span>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+    <script src="script-user-likes.js"></script>
+</body>
+</html>
